@@ -3,6 +3,8 @@ import Greet from './components/Greet';
 import Message from './components/Message';
 import { Welcome } from './components/Welcome';
 import {Parent} from './components/Parent';
+import FormDemo from './components/FormDemo';
+import FormDemo2 from './components/FormDemo2';
 
 function App() {
     /*
@@ -20,7 +22,8 @@ function App() {
     );*/
     return(
         <div className="App">
-            <Parent/>
+           { /*<Parent/>*/}
+           <FormDemo2/>
         </div>
         
     );
